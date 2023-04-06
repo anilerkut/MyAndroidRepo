@@ -1,3 +1,5 @@
 package com.example.databinding
 
-data class User(val name: String, val surname: String)
+import androidx.databinding.BaseObservable
+
+data class User(val name: String, val surname: String) : BaseObservable()
