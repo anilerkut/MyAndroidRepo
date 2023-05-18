@@ -93,7 +93,5 @@ class LazyRowColumnActivity : ComponentActivity() {
             }
         }
     }
-
-
 }
 
